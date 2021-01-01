@@ -1,0 +1,88 @@
+baseURL: /
+languageCode: en-us
+defaultContentLanguage: en-us
+title: Data Sciene with R
+theme: hugo-tranquilpeak-theme
+disqusShortname: sauterai
+paginate: 7
+canonifyurls: yes
+permalinks:
+  post: /blog/:slug/
+taxonomies:
+  archive: archives
+  tag: tags
+author:
+  bio: Data Sciene with R
+  gravatarEmail: no
+  job: Student
+  location: Germany
+  name: Marc Sauter
+  picture: https://avatars3.githubusercontent.com/u/76821920
+menu:
+  main:
+    - identifier: home
+      name: Home
+      pre: <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      url: /
+      weight: 1
+    - identifier: tags
+      name: Tags
+      pre: <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      url: /tags
+      weight: 2
+    - identifier: archives
+      name: Archives
+      pre: <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      url: /archives
+      weight: 3
+    - identifier: rss
+      name: RSS
+      pre: <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      url: /index.xml
+      weight: 4
+  links:
+    - identifier: github
+      name: Github
+      pre: <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      url: https://github.com/sauterai
+      weight: 1
+    - identifier: xing
+      name: Xing
+      pre: <i class="sidebar-button-icon fa fa-lg fa-xing"></i>
+      url: https://www.xing.com/profile/Marc_Sauter11
+      weight: 2
+  misc:
+    - identifier: about
+      name: About
+      pre: <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      url: /about
+      weight: 1
+    - identifier: imprint
+      name: Imprint
+      pre: <i class="sidebar-button-icon fa far fa-id-card"></i>
+      url: /imprint
+      weight: 2
+params:
+  dateFormat: 2006-01-02
+  autoThumbnailImage: yes
+  clearReading: yes
+  coverImage: /img/background.jpg
+  description: Data Science with R
+  header:
+    rightLink:
+      class: ''
+      icon: ''
+      url: /about
+  hierarchicalCategories: yes
+  imageGallery: yes
+  sharingOptions:
+    - icon: fa-facebook-official
+      name: Facebook
+      url: https://www.facebook.com/sharer/sharer.php?u=%s
+    - icon: fa-twitter
+      name: Twitter
+      url: https://twitter.com/intent/tweet?text=%s
+  sidebarBehavior: 1
+  syntaxHighlighter: no
+  thumbnailImage: yes
+  thumbnailImagePosition: bottom
